@@ -1,0 +1,21 @@
+body{
+    background-image: url(../assests/clock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 30px;
+    font-family: monospace;
+    backdrop-filter: blur(4px);
+}
+
